@@ -1,0 +1,34 @@
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+* {
+    font-family: sans-serif;
+}
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+nav span{
+    padding: 10px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+main div {
+    padding: 21.44px;
+}
+main div button {
+    font-size: 15px;
+    padding: 5px;
+    background-color: bisque;
+}
