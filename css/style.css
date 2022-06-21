@@ -23,12 +23,15 @@ nav span{
     font-size: 20px;
     border: solid black 2px;
 }
-
-#maindiv {
-    padding: 21.44px;
+#onclick {
+    font-family: sans-serif; /*solo para poner algo y no me marque error*/
 }
-main div button {
-    font-size: 20px;
-    padding: 10px;
-    background-color: rgb(123, 186, 189);
+#onclick2 {
+    font-family: sans-serif; /*solo para poner algo y no me marque error*/
+}
+#prestamo {
+    font-family: sans-serif; /*solo para poner algo y no me marque error*/
+}
+#prestamo2 {
+    font-family: sans-serif; /*solo para poner algo y no me marque error*/
 }
