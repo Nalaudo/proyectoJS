@@ -24,11 +24,11 @@ nav span{
     border: solid black 2px;
 }
 
-main div {
+#maindiv {
     padding: 21.44px;
 }
 main div button {
-    font-size: 15px;
-    padding: 5px;
-    background-color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(123, 186, 189);
 }
