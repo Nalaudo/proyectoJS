@@ -1,37 +1,83 @@
-a:link, a:visited, a:active {
-    text-decoration: none;
-    color: black;
+#head{
     font-family: sans-serif;
 }
-* {
+#body {
     font-family: sans-serif;
-}
-body {
     margin: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-nav {
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+hr {
+    border-right-width: 100vw;
+    border-left-width: 100vw;
+    border-top-width: 0.5px;
+    border-bottom-width: 0.5px;
+    border-color: black;
+    margin: 0px;
 }
-nav span{
+
+/*HEADER*/
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo {
+    color: blue;
+}
+/*HEADER*/
+
+/*NAV*/
+#nav {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#inicio {
+    margin-right: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 10px;
     font-size: 20px;
     border: solid black 2px;
 }
-#onclick {
-    font-family: sans-serif; /*solo para poner algo y no me marque error*/
+#prestamos {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    border: solid black 2px;
 }
-#onclick2 {
-    font-family: sans-serif; /*solo para poner algo y no me marque error*/
+/*NAV*/
+
+/*MAIN*/
+#main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-#prestamo {
-    font-family: sans-serif; /*solo para poner algo y no me marque error*/
+#formulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-#prestamo2 {
-    font-family: sans-serif; /*solo para poner algo y no me marque error*/
+#aprobado {
+    font-size: 24px;
 }
+#desaprobado {
+    font-size: 24px;
+}
+/*MAIN*/
+
+/*FOOTER*/
+#footer {
+    background-color: grey;
+}
+/*FOOTER*/
